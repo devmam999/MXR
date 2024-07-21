@@ -16,7 +16,7 @@ pros::Motor intake_1(1, pros::E_MOTOR_GEARSET_06, false, pros::E_MOTOR_ENCODER_C
 pros::Motor intake_2(20, pros::E_MOTOR_GEARSET_06, false, pros::E_MOTOR_ENCODER_COUNTS);
 pros::Motor_Group intake({intake_1, intake_2});
 
-// Soleniold
+// Solenoid
 pros::ADIDigitalOut solenoid('A', false);
 
 // Controller
