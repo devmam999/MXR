@@ -17,7 +17,7 @@ extern pros::Motor intake_2;
 extern pros::Motor_Group intake;
 
 // Soleniold
-extern pros::Motor soleniold;
+extern pros::ADIDigitalOut soleniold;
 
 // Controller
 extern pros::Controller controller;

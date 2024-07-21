@@ -13,11 +13,11 @@ pros::Motor_Group drive_right({drive_right_1, drive_right_2, drive_right_3});
 
 // Intake
 pros::Motor intake_1(7, pros::E_MOTOR_GEARSET_06, false, pros::E_MOTOR_ENCODER_COUNTS);
-pros::Motor intake_2(8, pros::E_MOTOR_GEARSET_06, false, pros::E_MOTOR_ENCODER_COUNTS);
+pros::Motor intake_2(9, pros::E_MOTOR_GEARSET_06, false, pros::E_MOTOR_ENCODER_COUNTS);
 pros::Motor_Group intake({intake_1, intake_2});
 
 // Soleniold
-pros::Motor soleniold(9, pros::E_MOTOR_GEARSET_06, true, pros::E_MOTOR_ENCODER_COUNTS);
+pros::ADIDigitalOut soleniold(8, false);
 
 // Controller
 pros::Controller controller(pros::E_CONTROLLER_MASTER);

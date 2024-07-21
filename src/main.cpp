@@ -78,6 +78,7 @@ void opcontrol() {
 	while (true) {
 		arcade_control();
 		Intake();
+		set_Soleniold();
 		pros::delay(20);
 	}
 }
