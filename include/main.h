@@ -75,7 +75,7 @@ void opcontrol(void);
 #include "subsystem_headers/globals.hpp"
 #include "subsystem_headers/drive.hpp"
 #include "subsystem_headers/intake.hpp"
-#include "subsystem_headers/soleniold.hpp"
+#include "subsystem_headers/solenoid.hpp"
 #endif
 
 #endif  // _PROS_MAIN_H_
