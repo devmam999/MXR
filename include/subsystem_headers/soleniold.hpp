@@ -1,3 +1,3 @@
 #include "main.h"
 
-void set_Soleniold();
+void set_Solenoid();
