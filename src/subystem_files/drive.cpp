@@ -14,3 +14,19 @@ void arcade_control() {
     drive_left.move(left);
     drive_right.move(right);
 }
+
+void tank_control() {
+    int left = controller.get_analog(ANALOG_LEFT_Y);
+    int right = controller.get_analog(ANALOG_RIGHT_Y);
+
+    if (abs(left) < 5) {
+        left = 0;
+    }
+    
+    if (abs(right) < 5) {
+        right = 0;
+    }
+    
+    drive_left.move(left);
+    drive_right.move(right);
+}

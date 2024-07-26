@@ -76,7 +76,7 @@ void autonomous() {}
 void opcontrol() {
 
 	while (true) {
-		arcade_control();
+		tank_control();
 		Intake();
 		set_Solenoid();
 		pros::delay(20);
